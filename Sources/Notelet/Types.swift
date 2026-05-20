@@ -45,7 +45,7 @@ public enum NoteletPresentedVersion: Sendable, Hashable {
     case v(String)
 }
 
-public struct NoteletConfiguration {
+public struct NoteletConfiguration: Sendable {
     let nextButtonLabel: LocalizedStringResource
     let doneButtonLabel: LocalizedStringResource
     let accentColor: Color
